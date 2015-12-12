@@ -16,7 +16,39 @@ data_sources:
     #   occupation_id: "SELECT id, name FROM occupations ORDER BY name ASC"
     #   genre_id: "SELECT id, name FROM genres ORDER BY name ASC"
   MartinsPastry2:
-     url: <%= ENV["BLAZER_CATALOG_DATABASE_URL"] %>
+     url: <%= ENV["BLAZER_DB1_URL"] %>
+  AlpineVending:
+     url: <%= ENV["BLAZER_DB2_URL"] %>
+  Axium:
+     url: <%= ENV["BLAZER_DB3_URL"] %>
+  ConsolidatedVending:
+     url: <%= ENV["BLAZER_DB4_URL"] %>
+  PrestigeVending:
+     url: <%= ENV["BLAZER_DB5_URL"] %>
+  sym_loyaltymarket:
+     url: <%= ENV["BLAZER_DB6_URL"] %>
+  sym_grenville:
+     url: <%= ENV["BLAZER_DB7_URL"] %>
+  sym_3M-301:
+     url: <%= ENV["BLAZER_DB8_URL"] %>
+  sym_502:
+     url: <%= ENV["BLAZER_DB9_URL"] %>
+  sym_centralwire:
+     url: <%= ENV["BLAZER_DB10_URL"] %>
+  sym_northHala:
+     url: <%= ENV["BLAZER_DB11_URL"] %>
+  sym_southHala:
+     url: <%= ENV["BLAZER_DB12_URL"] %>
+  sym_albany:
+     url: <%= ENV["BLAZER_DB13_URL"] %>
+  sym_albany_2:
+     url: <%= ENV["BLAZER_DB14_URL"] %>
+  Montreal:
+     url: <%= ENV["BLAZER_DB15_URL"] %>
+  2YHMarkets:
+     url: <%= ENV["BLAZER_DB16_URL"] %>
+
+
 
 time_zone: "Eastern Time (US & Canada)"
 audit: true
