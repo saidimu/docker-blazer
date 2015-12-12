@@ -1,5 +1,5 @@
 data_sources:
-  <%= ENV["BLAZER_DATABASE_LABEL"] %>:
+  MartinsPastry1:
     url: <%= ENV["BLAZER_DATABASE_URL"] %>
     timeout: 15
     # use_transaction: true
@@ -15,21 +15,8 @@ data_sources:
     #   movie_id: "SELECT id, title FROM movies ORDER BY title ASC"
     #   occupation_id: "SELECT id, name FROM occupations ORDER BY name ASC"
     #   genre_id: "SELECT id, name FROM genres ORDER BY name ASC"
-  <%= ENV["BLAZER_DATABASE2_LABEL"] %>:
-    url: <%= ENV["BLAZER_DATABASE2_URL"] %>
-    cache: 60 # minutes
-  <%= ENV["BLAZER_DATABASE3_LABEL"] %>:
-    url: <%= ENV["BLAZER_DATABASE3_URL"] %>
-    cache: 60 # minutes
-  <%= ENV["BLAZER_DATABASE4_LABEL"] %>:
-    url: <%= ENV["BLAZER_DATABASE4_URL"] %>
-    cache: 60 # minutes
-  <%= ENV["BLAZER_DATABASE5_LABEL"] %>:
-    url: <%= ENV["BLAZER_DATABASE5_URL"] %>
-    cache: 60 # minutes
-  <%= ENV["BLAZER_DATABASE6_LABEL"] %>:
-    url: <%= ENV["BLAZER_DATABASE6_URL"] %>
-    cache: 60 # minutes
+  MartinsPastry2:
+     url: <%= ENV["BLAZER_CATALOG_DATABASE_URL"] %>
 
 time_zone: "Eastern Time (US & Canada)"
 audit: true
